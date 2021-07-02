@@ -1,0 +1,202 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: 'Quicksand', sans-serif;
+}
+
+/* Nav */
+nav{
+	background-color:#313133;
+	height:60px;
+	width:100%;
+	position:fixed;
+	display:flex;
+	align-items: center;
+	color: red;	
+	justify-content: flex-end;
+}
+nav a{
+	font-size:20px;
+	margin:0 1% 0 0%;
+	color: white;
+}
+nav a:hover{
+	color:#43A047;
+}
+a, a:hover, a:active, a:focus, a:visited{
+	color: white;
+	text-decoration:none;
+}
+
+/* Rumah */
+#rumah{
+	background-color: yellow;
+	display:flex;
+	flex-direction:column;
+	height: 100vh;
+	align-items:center;
+	justify-content:center;
+}
+
+/* body */
+section {
+	background-color: yellow;
+	display:flex;
+	flex-direction: row;
+	justify-items:center;
+}
+article {
+	background-color: yellow;
+	display:flex;
+	flex-direction:column;
+	
+	justify-items:center;
+}
+h3 {
+	padding: 10px;
+}
+
+
+/* Tentang */
+section h4 {
+	text-align: center;
+}
+#tentang {
+	height: 100vh;
+	align-items: center;
+	justify-content:center;
+}
+.kalimat {
+	width: 80%;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    padding: 4px 4px;
+	font-size: 20px;
+}
+
+
+/* Kemampuan */
+#kemampuan {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	padding: 30px;
+}
+#kemampuan .bar {
+    height: 30px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+.bar .nilai {
+    height: 30px;
+    background-color: #F84744;
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+}
+
+.html {
+    width: 90%;
+}
+.css {
+	width: 85%;
+}
+.Photoshop {
+	width: 78%;
+}
+.bisindo {
+	width: 100%;
+}
+.Nge-game {
+	width: 100%;
+}
+
+article p {
+	display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+/* Portofolio Gambar */
+#portofolio {
+	height: 100vh;
+	background-color: yellow;
+	display: flex;
+	box-sizing: border-box;
+	flex-wrap: wrap;
+	align-content: space-around;
+}
+.project-tile {
+	margin-top: 65px;
+    float: left;
+    text-align: center;
+	justify-content: center;
+	padding: 20px;
+}
+.project-tile img{
+	width: 250px;
+	height: 150px;
+}
+main section div a img{
+	border: solid;
+	border-color: red;
+	border-width: 2px;
+	border-radius: 10px;
+}
+main section div a:hover{
+	border-radius: 20px;
+	box-shadow:
+		-5px 5px 20px,
+		5px -5px 20px,
+		5px 5px 20px,
+		-5px -5px 20px;
+}
+
+/* Kontak kami*/
+#kontak {
+	font-family: 'Quicksand', sans-serif;
+	justify-content: space-evenly;
+	
+}
+section h3{
+	text-align: center;
+	background-color: brown;
+	padding: 10px;
+}
+.col-3 {
+    width: 33.33%;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    padding: 50px 10px;
+}
+section hr {
+	margin: 10px;
+}
+
+/* Media Sosial */
+#medsos {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	padding: 40px;
+}
+.medsos {
+	padding: 10px;
+}
+
+/* Footer */
+footer{
+	background-color: #313133;
+	padding: 30px;
+	text-align: center;
+	color: whitesmoke;
+}
